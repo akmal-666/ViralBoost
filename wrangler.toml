@@ -20,6 +20,7 @@ PRICE_MARKUP = "2.0"
 #   WEBHOOK_SECRET    = <secret untuk callback payment gateway>
 
 # ── D1 Database binding ──
+# test
 [[d1_databases]]
 binding = "DB"
 database_name = "viral-boost-db"
