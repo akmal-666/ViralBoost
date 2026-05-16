@@ -22,5 +22,5 @@ PRICE_MARKUP = "2.0"
 # ── D1 Database binding ──
 [[d1_databases]]
 binding = "DB"
-database_name = "smm-panel-db"
-database_id = "14ae6b4b-1be2-46c5-bccd-4bff1b426852"
+database_name = "viral-boost-db"
+database_id = "13ecb74e-ce93-43ee-a90d-762a486dc5ce"
