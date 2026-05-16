@@ -21,7 +21,7 @@ const CONFIG = {
   // ── Set to false for production ──
   DEMO_MODE: false,
 
-  APP_NAME: 'BronetSMM',
+  APP_NAME: 'viralboost',
   APP_URL: window.location.origin,
 
   // ── Currency: IDR untuk AsokaPanel ──

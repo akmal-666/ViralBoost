@@ -117,7 +117,7 @@ export async function verifyJwt(token, secret) {
 
 // ── Auth middleware ──
 export async function requireAuth(request, env) {
-  const secret = env.JWT_SECRET || 'bronetsmm-default-secret-change-in-production';
+  const secret = env.JWT_SECRET || 'viralboost-default-secret-change-in-production';
   const auth = request.headers.get('Authorization') || '';
   const token = auth.startsWith('Bearer ') ? auth.slice(7) : null;
   if (!token) return null;

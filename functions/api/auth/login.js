@@ -15,7 +15,7 @@ export async function onRequestPost(context) {
   const { request, env } = context;
 
   // SECURITY: Wajib ada JWT_SECRET
-  const jwtSecret = env.JWT_SECRET || 'bronetsmm-default-secret-change-in-production';
+  const jwtSecret = env.JWT_SECRET || 'viralboost-default-secret-change-in-production';
 
   // Rate limiting: 5 percobaan per 15 menit per IP
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
